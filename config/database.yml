@@ -34,7 +34,7 @@ test:
   database: sample_app_test
   pool: 5
   username: root
-  password:
+  password: adminadmin
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -44,6 +44,6 @@ production:
   database: sample_app_production
   pool: 5
   username: root
-  password:
+  password: adminadmin
   socket: /var/run/mysqld/mysqld.sock
 
